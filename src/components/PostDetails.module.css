@@ -1,0 +1,42 @@
+.post_detail{
+    margin-bottom: 2em;
+}
+
+.post_detail img{
+    width: 600px;
+}
+
+.post_detail h2{
+    margin-bottom: .4em;
+}
+
+.post_detail .tags{
+    margin-bottom: 1.2em;
+    display: flex;
+}
+
+.tags p{
+    margin-right: .5em;
+}
+
+.tags span{
+    font-weight: bold;
+}
+.createdBy{
+    color: #444;
+    font-size: .8em;
+    margin-bottom: 1em;
+}
+
+.createdBy span{
+    font-style: italic;
+}
+
+@media only screen and (max-device-width: 900px) {
+    .post_detail img{
+        width: 340px;
+    }
+    .post_detail{
+        text-align: left;
+    }
+}

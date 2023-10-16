@@ -1,0 +1,13 @@
+.footer{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #EDf3f6;
+}
+@media only screen and (max-device-width: 900px) {
+    .footer{
+        text-align: center;
+    }
+}

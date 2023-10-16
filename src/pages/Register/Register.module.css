@@ -1,0 +1,12 @@
+.register{
+    text-align: center;
+}
+
+.register p{
+    color: #aaa;
+}
+@media only screen and (max-device-width: 900px) {
+    .register{
+        padding: 10px;
+    }
+}
